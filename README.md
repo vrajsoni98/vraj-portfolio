@@ -23,6 +23,10 @@
 - Font Awesome: https://fontawesome.com/
 - Simple Line Icons: https://simplelineicons.github.io/
 
+### Meta Tags
+
+- Meta Tags Generated via https://www.opengraph.xyz
+
 ### Testimonial
 
 To add a testimonial section, you can use SwiperJS:
