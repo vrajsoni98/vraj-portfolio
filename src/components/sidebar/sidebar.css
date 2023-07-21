@@ -60,11 +60,21 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .logo {
+    max-width: none;
+    width: 2rem;
+  }
+
   .aside {
     left: -110px;
   }
+
   .nav__toggle {
     display: flex;
+  }
+
+  .nav__link {
+    font-size: 1.25rem;
   }
 
   .nav__toggle-open {

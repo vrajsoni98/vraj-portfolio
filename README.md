@@ -1,76 +1,50 @@
-# Getting Started with Create React App
+# Vraj's Portfolo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+- My Portolfio website generate using React.js, HTML and CSS
 
-In the project directory, you can run:
+### Avatars
 
-### `npm start`
+- Avatars have been created using Apple Memojis and Canva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Illustrations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Work Illustration size: `width="560px" height="454px"`
+- Blog Illustration size: `width="529" height="345"`
+- Background color: `#F8F7FD`
 
-### `npm test`
+### Fonts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Google Fonts: Rubik
 
-### `npm run build`
+### Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Font Awesome: https://fontawesome.com/
+- Simple Line Icons: https://simplelineicons.github.io/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Testimonial
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To add a testimonial section, you can use SwiperJS:
 
-### `npm run eject`
+- Website: https://swiperjs.com/
+- Install: `npm i swiper`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Contact Form
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can implement a contact form using FormSubmit:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Website: https://formsubmit.co/
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To deploy your portfolio to GitHub Pages, you can use react-gh-pages:
 
-### `npm run build` fails to minify
+- Repository: https://github.com/gitname/react-gh-pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Getting Started
 
-Illustrations: https://www.manypixels.co/gallery and canva
-Work Illustration size: width="560px" height="454px"
+If you want to use the same portfolio, follow these steps:
 
-Blog Illustration size: width="529" height="345"
-backgroud-color: #F8F7FD
+1. Clone this repository.
+2. Make changes to the data component and assets, and it's ready to go!
