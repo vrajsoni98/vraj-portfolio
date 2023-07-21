@@ -43,7 +43,7 @@ const Contact = () => {
                 type="text"
                 name="text"
                 id=""
-                placeholder={ContactData.textPlaceholder}
+                placeholder={ContactData.namePlaceholder}
                 className="contact__form-input"
                 required
                 autoComplete="off"
