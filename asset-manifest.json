@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vraj-portfolio/static/css/main.ccf8e0bc.css",
+    "main.css": "/vraj-portfolio/static/css/main.152e1e9e.css",
     "main.js": "/vraj-portfolio/static/js/main.63eb15c9.js",
     "static/media/vraj.svg": "/vraj-portfolio/static/media/vraj.087889ee7d892634f8967cdc299b18ef.svg",
     "static/media/vraj2.svg": "/vraj-portfolio/static/media/vraj2.2a97e55d83480e0172127880e9ac3eb2.svg",
@@ -17,11 +17,11 @@
     "static/media/dots-bg.svg": "/vraj-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/vraj-portfolio/index.html",
     "static/media/V.svg": "/vraj-portfolio/static/media/V.605f67974be65f9b6b53a4beaaec633d.svg",
-    "main.ccf8e0bc.css.map": "/vraj-portfolio/static/css/main.ccf8e0bc.css.map",
+    "main.152e1e9e.css.map": "/vraj-portfolio/static/css/main.152e1e9e.css.map",
     "main.63eb15c9.js.map": "/vraj-portfolio/static/js/main.63eb15c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccf8e0bc.css",
+    "static/css/main.152e1e9e.css",
     "static/js/main.63eb15c9.js"
   ]
 }
