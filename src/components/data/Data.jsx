@@ -66,7 +66,7 @@ const BlogData = {
     {
       category: "JavaScript",
       img: Blog1,
-      url: `https://www.notion.so/vrajsoni/Asynchronous-JavaScript-Promises-AsyncAwait-and-AJAX-7ddcb771059b45988a1d64e0f08ebd1b?pvs=4`,
+      url: `https://vrajsoni.notion.site/Asynchronous-JavaScript-Promises-AsyncAwait-and-AJAX-7ddcb771059b45988a1d64e0f08ebd1b?pvs=4`,
       title: "Asynchronous JavaScript Promises & AsyncAwait",
       date: "11 May, 2021",
       author: "Vraj",
@@ -74,7 +74,7 @@ const BlogData = {
     {
       category: "JavaScript",
       img: Blog2,
-      url: `https://www.notion.so/vrajsoni/A-closer-look-at-Function-e58b67d849cb40ef9d6b154bc8d4e427?pvs=4`,
+      url: `https://vrajsoni.notion.site/A-closer-look-at-Function-e58b67d849cb40ef9d6b154bc8d4e427?pvs=4`,
       title: "JavaScript: A Closer look at Functions",
       date: "15 February, 2021",
       author: "Vraj",
@@ -82,7 +82,7 @@ const BlogData = {
     {
       category: "JavaScript",
       img: Blog3,
-      url: `https://www.notion.so/vrajsoni/JavaScript-9137e344ac2e4a95920ff4ea00da8612?pvs=4`,
+      url: `https://vrajsoni.notion.site/dc7c647c0af8403799e7692869c85244?v=4dd633cb4a854e4abb966c0e0aa3e641&pvs=4`,
       title: "Everything you need to know about JavaScript",
       date: "29 January, 2021",
       author: "Vraj",
