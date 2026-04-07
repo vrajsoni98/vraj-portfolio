@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./sidebar.css";
 import { SideBarData } from "../data/Data";
 
-const Sidebar = () => {
+const Sidebar = ({ isDark, toggleTheme }) => {
   const [toggle, showMenu] = useState(false);
   const closeNav = () => {
     toggle && showMenu(false);
@@ -20,7 +20,7 @@ const Sidebar = () => {
             <ul className="nav__list">
               {SideBarData.data.map((info, index) => (
                 <li key={index} className="nav__list">
-                  <a href={info.url} className="nav__link" onClick={closeNav}>
+                  <a href={info.url} className="nav__link" onClick={closeNav} title={info.name}>
                     <i className={info.icon}></i>
                   </a>
                 </li>
@@ -30,6 +30,14 @@ const Sidebar = () => {
         </nav>
 
         <div className="nav__footer">
+          <button
+            className="nav__theme-toggle"
+            onClick={toggleTheme}
+            title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+            aria-label="Toggle theme"
+          >
+            <i className={isDark ? "fa-solid fa-sun" : "fa-solid fa-moon"}></i>
+          </button>
           <span className="copyright">&copy; {SideBarData.copyright}</span>
         </div>
       </aside>

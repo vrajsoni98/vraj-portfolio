@@ -10,6 +10,12 @@
 .contact__title {
   font-size: var(--h3-font-size);
   margin-bottom: 0.5rem;
+  color: var(--title-color);
+}
+
+.contact__details {
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
 }
 
 .contact__form-group {
@@ -30,14 +36,25 @@
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: var(--shadow);
   background-color: var(--container-color);
   color: var(--text-color);
-  border: none;
+  border: 1px solid var(--border-color);
   outline: none;
-  border-radius: 1.875rem;
-  padding: 0.625rem 1.875rem;
+  border-radius: 12px;
+  padding: 0.625rem 1.25rem;
   z-index: 1;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--body-font);
+}
+
+.contact__form-input::placeholder {
+  color: var(--text-color);
+  opacity: 0.5;
+}
+
+.contact__form-input:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
 }
 
 .contact__form-area {
@@ -50,7 +67,7 @@
 
 .success-message {
   font-size: var(--normal-font-size);
-  color: #4bb543;
+  color: #34d399;
   margin-top: 1rem;
 }
 
@@ -71,7 +88,7 @@
     row-gap: 1.875rem;
   }
 
-  .contact__infor {
+  .contact__info {
     text-align: center;
   }
 }

@@ -1,39 +1,49 @@
 .blog__container {
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 1.875rem;
+  column-gap: 1.5rem;
 }
 
 .blog__card {
   box-shadow: var(--shadow);
   border-radius: var(--border-radius);
   overflow: hidden;
+  border: 1px solid var(--border-color);
+  background-color: var(--container-color);
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-.blog_thumb {
+.blog__card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+.blog__thumb {
   position: relative;
   overflow: hidden;
 }
 
 .blog__img {
+  width: 100%;
   transform: scale(1);
   transition: 0.3s;
+  display: block;
 }
 
 .blog__thumb:hover .blog__img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .blog__category {
   color: #fff;
-  background-color: var(--first-color);
+  background: linear-gradient(135deg, var(--first-color), var(--first-color-light));
   border-bottom-left-radius: 0.9375rem;
   border-bottom-right-radius: 0.9375rem;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 1.25rem;
   font-size: var(--small-font-size);
   display: inline-block;
-  padding: 0.125rem 0.5rem;
+  padding: 0.2rem 0.65rem;
   transition: 0.3s;
   z-index: 1;
 }
@@ -46,13 +56,20 @@
 .blog__title {
   font-size: var(--h3-font-size);
   margin-bottom: 0.5rem;
+  color: var(--title-color);
+  transition: color 0.3s;
+}
+
+.blog__title:hover {
+  color: var(--first-color);
 }
 
 .blog__meta {
   display: flex;
   column-gap: 0.6rem;
   font-size: var(--small-font-size);
-  color: #8b88b1;
+  color: var(--text-color);
+  opacity: 0.7;
 }
 
 .blog__dot {
@@ -61,20 +78,22 @@
 
 @media screen and (max-width: 1024px) {
   .blog__container {
-    grid-template-columns: repeat(2, 330px);
-    justify-content: center;
-    row-gap: 1.875rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 720px;
+    margin: 0 auto;
+    row-gap: 1.5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .blog__container {
-    grid-template-columns: 310px;
+    grid-template-columns: 1fr;
+    max-width: 400px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .blog__container {
-    grid-template-columns: 1fr;
+    max-width: 100%;
   }
 }

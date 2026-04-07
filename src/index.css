@@ -1,18 +1,19 @@
 /*====================================Google Fonts====================================*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 
-/*====================================Variable CSS====================================*/
+/*====================================Variable CSS — Dark Mode (Default)====================================*/
 :root {
   /*==========Colors==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
-  --container-color: #fff;
+  --first-color: #6366f1;
+  --first-color-light: #818cf8;
+  --second-color: #06b6d4;
+  --title-color: #f1f5f9;
+  --text-color: #94a3b8;
+  --body-color: #080c16;
+  --container-color: #0f172a;
+  --border-color: rgba(99, 102, 241, 0.15);
 
   /*==========Font and Typography==========*/
-  /*.5rem =8px | 1rem = 16px ...*/
   --body-font: "Rubik", sans-serif;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
@@ -26,11 +27,24 @@
   --font-semibold: 600;
   --font-bold: 700;
 
-  /*==========Box Shadow==========*/
-  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+  /*==========Shadow==========*/
+  --shadow: 0px 4px 32px rgba(0, 0, 0, 0.5);
 
   /*==========Border Radius==========*/
-  --border-radius: 20px;
+  --border-radius: 16px;
+}
+
+/*====================================Light Mode Override====================================*/
+body.light-mode {
+  --first-color: #6366f1;
+  --first-color-light: #4f46e5;
+  --second-color: #0891b2;
+  --title-color: #1e293b;
+  --text-color: #475569;
+  --body-color: #f0f4ff;
+  --container-color: #ffffff;
+  --border-color: rgba(99, 102, 241, 0.12);
+  --shadow: 0px 4px 32px rgba(99, 102, 241, 0.08);
 }
 
 /* Responsive typography */
@@ -68,6 +82,7 @@ body {
   background-color: var(--body-color);
   line-height: 1.7;
   color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1,
@@ -113,6 +128,8 @@ img {
 .section {
   padding-top: 7rem;
   padding-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .section__title {
@@ -125,47 +142,39 @@ img {
 
 .section__title::before {
   content: "";
-  background: url(./assets/dots-bg.svg);
+  background: linear-gradient(135deg, var(--first-color), var(--second-color));
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;
   left: -0.875rem;
   top: -0.875rem;
+  border-radius: 8px;
+  opacity: 0.35;
 }
 
 .btn {
   padding: 0.75rem 2rem;
   line-height: 1;
   border-radius: 1.875rem;
-  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
-  border: 1px solid trasnparent;
   color: #fff;
   display: inline-block;
-  background-color: var(--first-color);
+  background: linear-gradient(135deg, var(--first-color), var(--first-color-light));
   font-weight: var(--font-bold);
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
-  display: inline-block;
   outline: none;
+  border: none;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.35);
 }
 
 .btn:hover {
-  animation: button-push 0.3s linear 1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.5);
 }
 
 .btn:active {
-  top: 5px;
-}
-
-@keyframes button-push {
-  50% {
-    transform: scale(0.8);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+  transform: translateY(1px);
 }
 
 .hidden {

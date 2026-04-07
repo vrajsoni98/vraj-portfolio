@@ -7,9 +7,9 @@
   position: fixed;
   left: 0;
   top: 0;
-  background: var(--body-color);
-  border-right: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 2.5rem;
+  background: var(--container-color);
+  border-right: 1px solid var(--border-color);
+  padding: 2.5rem 1.5rem;
   width: 110px;
   min-height: 100vh;
   display: flex;
@@ -27,20 +27,56 @@
 
 .nav__link {
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: var(--text-color);
   font-weight: var(--font-bold);
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
 }
 
 .nav__link:hover {
-  color: hsl(43, 100%, 68%);
+  color: var(--first-color);
+  background: rgba(99, 102, 241, 0.12);
+}
+
+.nav__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav__theme-toggle {
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav__theme-toggle:hover {
+  color: var(--second-color);
+  background: rgba(6, 182, 212, 0.15);
+  border-color: rgba(6, 182, 212, 0.3);
 }
 
 .copyright {
-  color: hsl(245, 15%, 65%);
-  font-size: var(--small-font-size);
+  color: var(--text-color);
+  font-size: var(--smaller-font-size);
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
+  opacity: 0.5;
 }
 
 .nav__toggle {
@@ -50,13 +86,16 @@
   cursor: pointer;
   height: 40px;
   width: 45px;
-  background-color: var(--body-color);
-  border: 1px solid #e8dfed;
+  background-color: var(--container-color);
+  border: 1px solid var(--border-color);
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 100;
   transition: 0.3s;
+  border-radius: 10px;
+  color: var(--text-color);
+  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 1024px) {

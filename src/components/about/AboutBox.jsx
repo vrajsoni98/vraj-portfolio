@@ -4,10 +4,12 @@ import { AboutData } from "../data/Data";
 const AboutBox = () => {
   return (
     <div className="about__boxes grid">
-      {AboutData.skillIcons.map((icon, index) => (
-        <div key={index} className="about__box">
-          <i className={`about__icon ${icon}`}></i>
-        </div>
+      {AboutData.highlights.map((highlight, index) => (
+        <article key={index} className="about__box">
+          <span className="about__box-value">{highlight.value}</span>
+          <h3 className="about__box-label">{highlight.label}</h3>
+          <p className="about__box-text">{highlight.text}</p>
+        </article>
       ))}
     </div>
   );

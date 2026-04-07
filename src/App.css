@@ -1,5 +1,7 @@
 .main {
   margin-left: 110px;
+  position: relative;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {

@@ -9,6 +9,8 @@ const HeaderSocials = () => {
           key={index}
           href={social.url}
           className="home__social-link"
+          aria-label={social.name}
+          title={social.name}
           target="_blank"
           rel="noreferrer"
         >

@@ -1,54 +1,81 @@
-# Vraj's Portfolo
+# Vraj Soni — Portfolio
 
-## Description
+A personal portfolio built with React, showcasing my work as a Full-Stack & AI Software Developer.
 
-- My Portolfio website generate using React.js, HTML and CSS
+**Live site:** [vrajsoni98.github.io/vraj-portfolio](https://vrajsoni98.github.io/vraj-portfolio)
 
-### Avatars
+---
 
-- Avatars have been created using Apple Memojis and Canva.
+## Tech Stack
 
-### Illustrations
+- **React 18** — component-based UI
+- **CSS custom properties** — dark/light theme switching (dark default)
+- **Canvas API** — animated neural network background
+- **Swiper.js** — testimonials carousel
+- **FormSubmit** — contact form backend
+- **gh-pages** — deployment to GitHub Pages
 
-- Work Illustration size: `width="560px" height="454px"`
-- Blog Illustration size: `width="529" height="345"`
-- Background color: `#F8F7FD`
+---
 
-### Fonts
+## Features
 
-- Google Fonts: Rubik
+- Dark mode by default with light mode toggle (persisted in localStorage)
+- Animated neural network canvas background
+- Tabbed Experience / Education timeline
+- Project cards with gradient headers and tech chip badges (no mismatched images)
+- Filterable project grid with AI, Fullstack, Backend, Frontend categories
+- Responsive layout with collapsible sidebar navigation
 
-### Icons
+---
 
-- Font Awesome: https://fontawesome.com/
-- Simple Line Icons: https://simplelineicons.github.io/
+## Project Structure
 
-### Meta Tags
+```
+src/
+├── components/
+│   ├── background/     # Canvas neural network animation
+│   ├── sidebar/        # Fixed nav + theme toggle
+│   ├── home/           # Hero section
+│   ├── about/          # Bio + stats
+│   ├── resume/         # Tabbed experience / education
+│   ├── portfolio/      # Filterable project grid
+│   ├── testimonials/   # Swiper carousel
+│   ├── blog/           # Writing archive
+│   ├── contact/        # FormSubmit contact form
+│   └── data/           # Data.jsx — all content in one place
+└── assets/
+    ├── myavatar/
+    ├── reviewavatar/
+    ├── logo/
+    └── resume/
+```
 
-- Meta Tags Generated via https://www.opengraph.xyz
+All site content (bio, work experience, projects, testimonials, etc.) lives in [`src/components/data/Data.jsx`](src/components/data/Data.jsx) — edit that file to update anything.
 
-### Testimonial
+---
 
-To add a testimonial section, you can use SwiperJS:
+## Running Locally
 
-- Website: https://swiperjs.com/
-- Install: `npm i swiper`
+```bash
+npm install
+npm start
+```
 
-### Contact Form
+## Deployment
 
-You can implement a contact form using FormSubmit:
+```bash
+npm run deploy
+```
 
-- Website: https://formsubmit.co/
+Deploys to GitHub Pages via `gh-pages`. The `homepage` field in `package.json` controls the base URL.
 
-### Deployment
+---
 
-To deploy your portfolio to GitHub Pages, you can use react-gh-pages:
+## Assets & Libraries
 
-- Repository: https://github.com/gitname/react-gh-pages
-
-## Getting Started
-
-If you want to use the same portfolio, follow these steps:
-
-1. Clone this repository.
-2. Make changes to the data component and assets, and it's ready to go!
+- **Avatars** — created with Apple Memojis and Canva
+- **Fonts** — [Rubik](https://fonts.google.com/specimen/Rubik) via Google Fonts
+- **Icons** — [Font Awesome](https://fontawesome.com/) + [Simple Line Icons](https://simplelineicons.github.io/)
+- **Carousel** — [Swiper.js](https://swiperjs.com/) (`npm i swiper`)
+- **Contact form** — [FormSubmit](https://formsubmit.co/)
+- **Deployment** — [react-gh-pages](https://github.com/gitname/react-gh-pages)
