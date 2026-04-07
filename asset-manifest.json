@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vraj-portfolio/static/css/main.92010846.css",
-    "main.js": "/vraj-portfolio/static/js/main.5401751a.js",
+    "main.js": "/vraj-portfolio/static/js/main.be131705.js",
     "static/media/vraj.svg": "/vraj-portfolio/static/media/vraj.087889ee7d892634f8967cdc299b18ef.svg",
     "static/media/vraj2.svg": "/vraj-portfolio/static/media/vraj2.2a97e55d83480e0172127880e9ac3eb2.svg",
     "static/media/brad.svg": "/vraj-portfolio/static/media/brad.8d6c0c94da9638466a71909a314ca5cd.svg",
     "static/media/mikhail.svg": "/vraj-portfolio/static/media/mikhail.912ed6e6164c2b55f429338febd88eff.svg",
     "static/media/kunj.svg": "/vraj-portfolio/static/media/kunj.312fb2c1696889ace0f3a2be0dcf1832.svg",
-    "static/media/VrajSoni_Resume.pdf": "/vraj-portfolio/static/media/VrajSoni_Resume.faac0fe2bafe8729b8da.pdf",
+    "static/media/VrajSoni_Resume.pdf": "/vraj-portfolio/static/media/VrajSoni_Resume.06d893d67cb191f058eb.pdf",
     "static/media/all-js.svg": "/vraj-portfolio/static/media/all-js.2454b73b7f94ebe8d6f1557f570c90c4.svg",
     "static/media/readit-blogs.svg": "/vraj-portfolio/static/media/readit-blogs.a5224d90897691fb9c81d203860b47c4.svg",
     "static/media/mapty.svg": "/vraj-portfolio/static/media/mapty.b1e5c1341899ee00d86d6c613f593837.svg",
@@ -20,10 +20,10 @@
     "static/media/ai-manager-365.svg": "/vraj-portfolio/static/media/ai-manager-365.38dcc7721d43656519f6df3c84fb8389.svg",
     "static/media/V.svg": "/vraj-portfolio/static/media/V.605f67974be65f9b6b53a4beaaec633d.svg",
     "main.92010846.css.map": "/vraj-portfolio/static/css/main.92010846.css.map",
-    "main.5401751a.js.map": "/vraj-portfolio/static/js/main.5401751a.js.map"
+    "main.be131705.js.map": "/vraj-portfolio/static/js/main.be131705.js.map"
   },
   "entrypoints": [
     "static/css/main.92010846.css",
-    "static/js/main.5401751a.js"
+    "static/js/main.be131705.js"
   ]
 }
