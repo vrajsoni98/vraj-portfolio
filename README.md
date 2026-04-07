@@ -61,6 +61,8 @@ npm install
 npm start
 ```
 
+Local dev usually runs at `http://localhost:3000`. That URL is only for your machine and is not the public site.
+
 ## Deployment
 
 ```bash
@@ -68,6 +70,23 @@ npm run deploy
 ```
 
 Deploys to GitHub Pages via `gh-pages`. The `homepage` field in `package.json` controls the base URL.
+
+## Update Workflow
+
+To publish new changes to GitHub and refresh the live GitHub Pages site:
+
+```bash
+git add -A
+git commit -m "your message"
+git push origin main
+npm run deploy
+```
+
+- `main` is the source branch with the full React project.
+- `gh-pages` is the generated static output branch that GitHub Pages serves.
+- It is normal for `gh-pages` to not contain the full source tree.
+
+**Public site:** [https://vrajsoni98.github.io/vraj-portfolio/#home](https://vrajsoni98.github.io/vraj-portfolio/#home)
 
 ---
 
