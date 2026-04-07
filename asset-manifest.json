@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/vraj-portfolio/static/css/main.152e1e9e.css",
-    "main.js": "/vraj-portfolio/static/js/main.29d8153a.js",
+    "main.css": "/vraj-portfolio/static/css/main.92010846.css",
+    "main.js": "/vraj-portfolio/static/js/main.5401751a.js",
     "static/media/vraj.svg": "/vraj-portfolio/static/media/vraj.087889ee7d892634f8967cdc299b18ef.svg",
     "static/media/vraj2.svg": "/vraj-portfolio/static/media/vraj2.2a97e55d83480e0172127880e9ac3eb2.svg",
     "static/media/brad.svg": "/vraj-portfolio/static/media/brad.8d6c0c94da9638466a71909a314ca5cd.svg",
     "static/media/mikhail.svg": "/vraj-portfolio/static/media/mikhail.912ed6e6164c2b55f429338febd88eff.svg",
     "static/media/kunj.svg": "/vraj-portfolio/static/media/kunj.312fb2c1696889ace0f3a2be0dcf1832.svg",
+    "static/media/VrajSoni_Resume.pdf": "/vraj-portfolio/static/media/VrajSoni_Resume.faac0fe2bafe8729b8da.pdf",
     "static/media/all-js.svg": "/vraj-portfolio/static/media/all-js.2454b73b7f94ebe8d6f1557f570c90c4.svg",
     "static/media/readit-blogs.svg": "/vraj-portfolio/static/media/readit-blogs.a5224d90897691fb9c81d203860b47c4.svg",
     "static/media/mapty.svg": "/vraj-portfolio/static/media/mapty.b1e5c1341899ee00d86d6c613f593837.svg",
@@ -14,14 +15,15 @@
     "static/media/smart-data-card.svg": "/vraj-portfolio/static/media/smart-data-card.bde7e5093d2bdbddff495ca558555e8f.svg",
     "static/media/function.svg": "/vraj-portfolio/static/media/function.a6b541a9e76211b6d360ab40eacb855e.svg",
     "static/media/async.svg": "/vraj-portfolio/static/media/async.1aa71c7f0244cc3cbb389c0f0fa89776.svg",
-    "static/media/dots-bg.svg": "/vraj-portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "static/media/medical-coding-agent.svg": "/vraj-portfolio/static/media/medical-coding-agent.a42c87519e83f19181408a0268d55b89.svg",
     "index.html": "/vraj-portfolio/index.html",
+    "static/media/ai-manager-365.svg": "/vraj-portfolio/static/media/ai-manager-365.38dcc7721d43656519f6df3c84fb8389.svg",
     "static/media/V.svg": "/vraj-portfolio/static/media/V.605f67974be65f9b6b53a4beaaec633d.svg",
-    "main.152e1e9e.css.map": "/vraj-portfolio/static/css/main.152e1e9e.css.map",
-    "main.29d8153a.js.map": "/vraj-portfolio/static/js/main.29d8153a.js.map"
+    "main.92010846.css.map": "/vraj-portfolio/static/css/main.92010846.css.map",
+    "main.5401751a.js.map": "/vraj-portfolio/static/js/main.5401751a.js.map"
   },
   "entrypoints": [
-    "static/css/main.152e1e9e.css",
-    "static/js/main.29d8153a.js"
+    "static/css/main.92010846.css",
+    "static/js/main.5401751a.js"
   ]
 }
