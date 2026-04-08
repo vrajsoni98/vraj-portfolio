@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vraj-portfolio/static/css/main.92010846.css",
-    "main.js": "/vraj-portfolio/static/js/main.be131705.js",
+    "main.js": "/vraj-portfolio/static/js/main.4e57a312.js",
     "static/media/vraj.svg": "/vraj-portfolio/static/media/vraj.087889ee7d892634f8967cdc299b18ef.svg",
     "static/media/vraj2.svg": "/vraj-portfolio/static/media/vraj2.2a97e55d83480e0172127880e9ac3eb2.svg",
     "static/media/brad.svg": "/vraj-portfolio/static/media/brad.8d6c0c94da9638466a71909a314ca5cd.svg",
@@ -17,13 +17,13 @@
     "static/media/async.svg": "/vraj-portfolio/static/media/async.1aa71c7f0244cc3cbb389c0f0fa89776.svg",
     "index.html": "/vraj-portfolio/index.html",
     "static/media/medical-coding-agent.svg": "/vraj-portfolio/static/media/medical-coding-agent.a42c87519e83f19181408a0268d55b89.svg",
-    "static/media/ai-manager-365.svg": "/vraj-portfolio/static/media/ai-manager-365.38dcc7721d43656519f6df3c84fb8389.svg",
+    "static/media/fleet.svg": "/vraj-portfolio/static/media/fleet.9ecfe5df26bc09469d9cd6d91f1bb34b.svg",
     "static/media/V.svg": "/vraj-portfolio/static/media/V.605f67974be65f9b6b53a4beaaec633d.svg",
     "main.92010846.css.map": "/vraj-portfolio/static/css/main.92010846.css.map",
-    "main.be131705.js.map": "/vraj-portfolio/static/js/main.be131705.js.map"
+    "main.4e57a312.js.map": "/vraj-portfolio/static/js/main.4e57a312.js.map"
   },
   "entrypoints": [
     "static/css/main.92010846.css",
-    "static/js/main.be131705.js"
+    "static/js/main.4e57a312.js"
   ]
 }
