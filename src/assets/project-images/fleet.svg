@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340" role="img" aria-labelledby="title desc">
-  <title id="title">AI Manager 365</title>
+  <title id="title">Fleet</title>
   <desc id="desc">Abstract project thumbnail for an LLM observability and governance platform.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -26,7 +26,7 @@
   <path d="M337 156v44" stroke="#0b1a31" stroke-width="6" stroke-linecap="round" />
   <path d="M322 171h30" stroke="#0b1a31" stroke-width="6" stroke-linecap="round" />
   <text x="42" y="276" fill="#f5f7fa" font-family="Rubik, Arial, sans-serif" font-size="34" font-weight="700">
-    AI Manager 365
+    Fleet
   </text>
   <text x="42" y="304" fill="#dce8f2" font-family="Rubik, Arial, sans-serif" font-size="16">
     Observability, proxy controls, policy enforcement

@@ -6,7 +6,7 @@ import Work1 from "../../assets/project-images/readit-blogs.svg";
 import Work2 from "../../assets/project-images/smart-data-card.svg";
 import Work3 from "../../assets/project-images/mar-div.svg";
 import Work4 from "../../assets/project-images/mapty.svg";
-import Work5 from "../../assets/project-images/ai-manager-365.svg";
+import Work5 from "../../assets/project-images/fleet.svg";
 import Work6 from "../../assets/project-images/medical-coding-agent.svg";
 
 //blog images
@@ -212,7 +212,7 @@ const ProjectsData = {
     {
       id: 1,
       image: Work5,
-      title: "AI Manager 365",
+      title: "Fleet",
       summary:
         "LLM observability and governance platform with proxy-level logging, policy enforcement, and real-time monitoring.",
       tech: "Python, FastAPI, Redis, MySQL, Supabase, OpenAI API",
